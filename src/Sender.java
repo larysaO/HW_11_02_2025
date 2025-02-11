@@ -1,5 +1,5 @@
 public class Sender {
-  public void send(MailDeliveryService mailDeliveryService ){
+  public static void send(MailDeliveryService mailDeliveryService){
       mailDeliveryService.sendMail();
   }
 }
